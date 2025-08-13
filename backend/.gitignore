@@ -1,0 +1,16 @@
+/.vs/*
+**/*.suo
+**/*.user
+**/*.bak
+**/*.orig
+**/UpgradeLog.htm
+**/bin/*
+**/obj/*
+**/App_Data/Logs/*
+**/ElmahLogs/*
+Logs
+/src/shesha.app.Web.Host/web.config
+/src/shesha.app.Web.Host/shesha.app.Web.Core.xml
+/sh.exe.stackdump
+
+
