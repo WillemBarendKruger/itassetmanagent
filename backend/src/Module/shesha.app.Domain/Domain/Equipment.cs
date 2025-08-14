@@ -21,7 +21,7 @@ namespace shesha.app.Domain.Domain
 
         [Required]
         [ReferenceList("app", "EquipmentStatus")]
-        public virtual EquipmentStatus Status { get; set; }
+        public virtual EquipmentStatus Status { get; set; } = EquipmentStatus.Inventory;
 
 
         public virtual DateTime? GetDate { get; set; }
