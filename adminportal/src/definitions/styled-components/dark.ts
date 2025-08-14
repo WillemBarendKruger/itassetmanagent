@@ -12,7 +12,7 @@ const dark: DefaultTheme = {
         headerBg: "#1A1C22",
         cardsBg: "#1A1C22",
         textColor: "#FFFFFF",
-        dodgerBlue: "#0062CC",
+        dodgerBlue: "#84CC16",
     },
 };
 
