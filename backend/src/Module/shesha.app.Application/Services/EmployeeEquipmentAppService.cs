@@ -1,9 +1,14 @@
-﻿using Abp.Domain.Repositories;
+﻿using Abp.Dependency;
+using Abp.Domain.Repositories;
+using Abp.Runtime.Session;
 using Microsoft.AspNetCore.Mvc;
 using shesha.app.Domain.Domain;
 using Shesha;
 using Shesha.Domain;
+using Shesha.Specifications;
 using System;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace shesha.app.Common.Services
@@ -35,4 +40,5 @@ namespace shesha.app.Common.Services
             return equipmentList.Count | 0;
         }
     }
+
 }
